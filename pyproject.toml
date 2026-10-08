@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SCAM_GUARD_AI"
+version = "0.1.0"
+description = "Your project description"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai>=0.1.0",
+    "openai>=2.50.0",
+    "pandas>=2.0.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.30.0",
+    "tqdm>=4.60.0",
+]
+[tool.setuptools]
+packages = ["pipeline", "llm", "streamlit"]
