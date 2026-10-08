@@ -2,6 +2,14 @@
 
 Scam Guard AI classifies message text as `Scam`, `Not Scam`, or `Uncertain` and explains the indicators it found. The Streamlit app also includes a dataset-evaluation view.
 
+## Tech stack
+
+- Python
+- Streamlit for the web interface
+- Google Gemini via the `google-genai` SDK
+- pandas and Pydantic for data handling and validation
+- uv for dependency management
+
 ## Requirements
 
 - Python 3.10 or later
